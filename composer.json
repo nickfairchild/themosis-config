@@ -1,0 +1,28 @@
+{
+  "name": "nickfairchild/themosis-config",
+  "description": "Config package for Themosis.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nick Fairchild",
+      "email": "nick.fairchild@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "nickfairchild/themosis-support": "dev-master",
+    "illuminate/config": "^5.4"
+  },
+  "autoload" : {
+    "psr-4": {
+      "NickFairchild\\Config\\": ""
+    },
+    "files": [
+      "helpers.php"
+    ]
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev"
+}
